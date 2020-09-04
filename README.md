@@ -26,7 +26,7 @@ Este trabalho foi o projeto da semana desenvolvido para treinamento na Faculdade
 
 ## :seedling: Requisitos Mínimos
 
-
+Navegador Atualizado
 
 ## :rocket: Tecnologias Utilizadas 
 
