@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #e09664;
+    overflow: scroll;
+}
+
+#cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 6vh;
+    background-color: #3498db;
+    border-bottom: solid 2px black;
+    font-size:1.5em;
+    
+}
+
+#cabecalho p:hover{
+    font-size:1.2em;
+    transition: all 1s ease;
+    color: goldenrod;
+}
+
+#div{
+    width:40vw;
+    height: 14vh;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   margin: 25px auto 0 auto;
+   flex-direction: column;
+   background-color: #3498db;
+   border: solid 2px black;
+   border-radius:20px;
+
+}
+#div:hover{
+    background-color: #207dbb;
+    border: solid 2px goldenrod;
+
+
+}
+#div label{
+    margin: 10px 3px;
+    font-size:1.5em;
+
+}
+#div label:hover{
+    color:goldenrod
+
+}
+#div input{
+    width: 15vw;
+    height: 2vh;
+    text-align: center;
+    border-radius: 8px;
+}
+.cdgif{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 40vw;
+    margin: 5px auto 5px auto;
+    padding:5px;
+    border-radius: 20px;
+
+}
+
+
+.cdlivros{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    border: solid 2px black;
+    width: 40vw;
+    margin: 5px auto 5px auto;
+    background-color: #3498db;
+    padding:5px;
+    border-radius: 20px;
+
+}
+.cdlivros:hover{
+    background-color: #207dbb; 
+    border: solid 2px goldenrod;
+}
+
+.cdlivros a{
+    text-decoration: none;
+    color: purple;
+}
+.cdlivros a:hover{
+    color: red;
+    font-size:1.1em;
+    transition: all 0.5s ease;
+
+}
+
+.cdlivros img{
+    width: 16px;
+}
+#gif{
+    width: 80px;
+    border-radius: 60px;
+    margin-top:20px;
+}
+
+@media (max-width:768px){
+
+    #div{
+        width: 70vw;
+        font-size:10px;
+        text-align:center;
+    }
+
+    #div input{
+        width: 40vw;
+    }
+
+    .cdlivros{
+        width: 70vw;
+    }
+
+}
+
+
+
