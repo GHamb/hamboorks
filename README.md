@@ -16,7 +16,7 @@ ___
 
 <img src="https://readme-maker.herokuapp.com/uploads/27f456feba170e56-thumgit.png" width="1200">
 <img src="https://readme-maker.herokuapp.com/uploads/2dbe234df2b18dd6-thumbgit.png" width="1200">
-<img src="https://readme-maker.herokuapp.com/uploads/1f36885e947ce5c8-respthumb.png" width="200" align ="center">
+<img src="https://readme-maker.herokuapp.com/uploads/1f36885e947ce5c8-respthumb.png" width="200" >
 
 ## :information_source: Sobre
 
